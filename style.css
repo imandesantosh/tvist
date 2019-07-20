@@ -1,0 +1,370 @@
+.carousel-caption {
+    bottom: 400px !important;
+}
+.header-hero,.aboutus{
+    position: relative;
+}
+.header-options{
+    background-color: black;
+    height: 170px;
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+}
+.option-of-header{
+    height: 170px;
+    width: 300px;
+    color: white;
+    padding: 20px 15px;
+}
+.option-of-header:hover{
+    background: #28343b; /* Old browsers */
+    background: -moz-linear-gradient(top, #28343b 0%, #828c95 50%, #28343b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #28343b 0%,#828c95 50%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #28343b 0%,#828c95 50%,#28343b 100%);
+}
+.option-of-header h5{
+    font-size:15px;
+}
+.option-of-header i{
+    font-size:25px;
+    color:rgb(33, 145, 11) !important;
+    margin-bottom: 15px;
+}
+
+.about-options{
+    padding: 50px 0;
+    color: black;
+}
+.card-img-block{
+    position: relative;
+}
+.about-options .card-img-block .icon-our{
+   position: absolute;
+   top:145px;
+   left:120px;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   border: 5px solid #fff;
+   background-color: rgb(33, 145, 11) ;
+}
+.about-options .card-img-block .icon-our i{
+    color: #fff
+}
+
+.aboutus{
+    height: auto;
+    width: 100%;
+    margin-top:170px;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.about-options .option-of-header{
+    color: black;
+}
+.bg-layer{
+    background: url(img/about-bg.jpg) no-repeat;
+    background-position: center 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: 100%;
+    z-index: -1;
+}
+.bg-overlay-carousel{
+    background-color: rgba(0, 0, 0, 0.596);
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: 9;
+}
+.carousel-control-prev,.carousel-control-next{
+    z-index: 999;
+}
+.navbar ul li a{
+    color: #fff !important;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.navbar ul li.active a{
+    color: rgb(33, 145, 11) !important;
+    font-weight: bolder;
+}
+
+nav.bg-light{
+    background-color: transparent !important;
+    z-index: 999;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+nav.scrolled{
+    background-color: rgba(0, 0, 0, 0.596) !important;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.services{
+    padding: 50px 0;
+}
+.option-of-services{
+    height: 170px;
+    width: 300px;
+    padding: 20px 15px;
+}
+.option-of-services i{
+    font-size:25px;
+    color:rgb(33, 145, 11) !important;
+    margin-bottom: 15px;
+}
+.call-to-action{
+    height: 250px;
+    width: 100%;
+    background: url(img/call-to-action-bg.jpg)  bottom center no-repeat;
+    background-size: 100% 100% ;
+    color: white;
+}
+.btn-tv{
+    border-radius: 26px;
+    padding:5px 30px;
+    color:white;
+}
+.skills,.portfolio,.clients,.testmonials,.team,.contact,.footer-main{
+    padding: 70px 0;
+}
+.progress-bar{
+    padding: 0 15px !important;
+}
+.progress{
+    margin-bottom: 15px;
+    height: 40px !important;
+}
+.facts{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    padding: 70px 0 0 0;
+}
+.facts img{
+    width: 70%;
+}
+.facts h2{
+    color: rgb(33, 145, 11) ;
+}
+.testmonials,.portfolio,.contact{
+    background: rgb(238, 238, 238)
+}
+.details{
+    width: 250px;
+    padding: 10px 10px;
+    text-align: center;
+}
+.details i{
+    font-size: 3em;
+    color: rgb(33, 145, 11) ;
+}
+.ph{
+    border-left: 1px solid #a3a3a3;
+    border-right: 1px solid #a3a3a3;
+}
+.footer-main{
+    background: #28343b;
+    color:#fff;
+    font-size: 12px;
+}
+.footer-main hr{
+    background-color: #a3a3a3;
+    margin-top: 0 !important;
+}
+.footer-main li a{
+    color: #fff !important;
+}
+.footer-main li{
+    line-height: 2;
+    border-bottom: 1px solid #707070;
+    list-style: initial;
+    list-style-position: inside;
+}
+.footer-main .contact-us ul{
+    padding: 0 !important;
+}
+.footer-main .contact-us ul li{
+    list-style: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background: #666;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+}
+.footer-end{
+    height: 100px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+}
+.bg-overlay{
+    background: url(img/facts-bg.jpg) no-repeat;
+    background-position: center 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: 100%;
+    z-index: -1;
+}
+.clients .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+}
+
+/* The colour of the indicators */
+.clients .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    border-top: 0px !important; 
+    border-bottom: 0px !important; 
+}
+
+.clients .carousel-indicators .active {
+background: #707070;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators {
+    top: auto;
+    bottom: 0px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    border-top: 0px !important; 
+    border-bottom: 0px !important; 
+}
+#quote-carousel .carousel-indicators .active {
+    background: rgb(33, 145, 11) ;
+    border-radius: 50% !important;
+}
+#quote-carousel img{
+    width: 250px;
+    height: 100px;
+    border-radius:50%  !important;
+}
+/* End carousel */
+
+.carousel-item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.carousel-item blockquote img {
+    margin-bottom: 10px;
+}
+.testm-text{
+    padding: 0 50px;
+}
+.carousel-item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.carousel-item blockquote p:after {
+    content: "\f10e";
+    font-family: 'Fontawesome';
+    float: right;
+    margin-left: 0px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .carousel-control-prev,.carousel-control-next{
+        display: none !important;
+    }
+    .about-options .card-img-block .icon-our{
+        top:190px;
+        left:155px;
+     }
+     .servies-options {
+         display: block !important;
+     }
+  }
